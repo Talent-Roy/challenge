@@ -33,4 +33,5 @@
 
 .games .game_box {
   width: 100%;
+  text-decoration: none;
 }
