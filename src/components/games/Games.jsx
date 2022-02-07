@@ -87,7 +87,9 @@ const Games = () => {
                         })}
                       </p>
 
-                      <p className="summary">{game.summary}</p>
+                      <p className="summary">
+                        {game.summary.substring(0, 100).concat("...")}
+                      </p>
                     </div>
                   </Link>
                 </>
