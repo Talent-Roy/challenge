@@ -67,10 +67,6 @@ const Games = () => {
                   .includes(searchTerm.toLocaleLowerCase())
               ) {
                 return val;
-              } else if (val.first_release_date.includes(searchTerm)) {
-                return val;
-              } else if (val.rating.includes(searchTerm)) {
-                return val;
               }
               return false;
             })
@@ -82,8 +78,10 @@ const Games = () => {
                       <h1>{game.name}</h1>
 
                       <p>
-                        {game.first_release_date.toLocaleString("en-NG", {
-                          timeZone: "UTC",
+                        {game.first_release_date.toLocaleString("en-US", {
+                          day: "numeric",
+                          month: "short",
+                          year: "numeric",
                         })}
                       </p>
 
