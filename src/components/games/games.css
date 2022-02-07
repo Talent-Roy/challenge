@@ -1,6 +1,6 @@
 .searchbar {
   padding: 7px;
-  background-color: #182c47;
+  background-color: #0e1c2e;
   width: 300px;
 }
 
@@ -20,12 +20,15 @@
 .searchbar form input {
   padding: 7px 20px;
   background: #182c47;
-  border: 1px solid #182c47;
+  border: 0 solid rgb(221, 220, 220);
   color: #fff;
 }
 
 .searchbar form button {
   background-color: #5692e8;
+  padding: 7px 2em;
+  border: none;
+  border-radius: 5px;
 }
 
 .games {
