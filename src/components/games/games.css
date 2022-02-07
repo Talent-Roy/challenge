@@ -1,0 +1,40 @@
+.games_cont {
+  background: linear-gradient(#081221, #03080f);
+}
+
+.searchbar {
+  padding: 7px;
+  background-color: #182c47;
+  width: 300px;
+}
+
+.searchbar p {
+  color: #fff;
+  padding: 3px 0;
+}
+
+.searchbar form {
+  padding: 3px;
+}
+
+.searchbar form label {
+  color: #fff;
+}
+
+.searchbar form input {
+  padding: 7px 20px;
+  background: #182c47;
+  border: 1px solid #182c47;
+  color: #fff;
+}
+
+.searchbar form button {
+  background-color: #5692e8;
+}
+
+.games {
+}
+
+.games .game_box {
+  width: 100%;
+}
