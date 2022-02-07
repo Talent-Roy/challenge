@@ -73,23 +73,21 @@ const Games = () => {
             .map((game) => {
               return (
                 <>
-                  <Link to={`/game/${game.id}`} className="game_box">
-                    <div className="games_id" key={game.id}>
-                      <h1>{game.name}</h1>
+                  <div className="game_box py-3 px-2" key={game.id}>
+                    <h1>{game.name}</h1>
 
-                      <p>
-                        {game.first_release_date.toLocaleString("en-US", {
-                          day: "numeric",
-                          month: "short",
-                          year: "numeric",
-                        })}
-                      </p>
+                    <p>
+                      {game.first_release_date.toLocaleString("en-US", {
+                        day: "numeric",
+                        month: "short",
+                        year: "numeric",
+                      })}
+                    </p>
 
-                      <p className="summary">
-                        {game.summary.substring(0, 100).concat("...")}
-                      </p>
-                    </div>
-                  </Link>
+                    <p className="summary">
+                      {game.summary.substring(0, 100).concat("...")}
+                    </p>
+                  </div>
                 </>
               );
             })}

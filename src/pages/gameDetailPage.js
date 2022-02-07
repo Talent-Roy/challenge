@@ -1,7 +1,7 @@
 import React from "react";
 
-const GameDetailPage = () => {
-  return <div>hello from game details</div>;
+const GameDetailPage = (game) => {
+  return <div>{game.name}</div>;
 };
 
 export default GameDetailPage;

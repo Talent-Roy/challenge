@@ -37,8 +37,12 @@
 .games .game_box {
   width: 100%;
   text-decoration: none;
-  border: solid 1px #182c47;
+  border: solid 0px #182c47;
   background-color: #0e1a2b;
   z-index: 1;
   color: #fff;
+}
+
+.games .game_box h1 {
+  font-size: 1.2em;
 }
